@@ -62,8 +62,9 @@ func main() {
 	}
 	fmt.Println(lista.tasks[1])
 	lista.agregarALista(t3)
-	fmt.Println(len(lista.tasks))
-	fmt.Println(cap(lista.tasks))
 	lista.eliminarDeLista(1)
-	fmt.Println(len(lista.tasks))
+
+	for i:= 0; i<len(lista.tasks); i++{
+		 	
+	}
 }
