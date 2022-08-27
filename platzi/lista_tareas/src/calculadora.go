@@ -10,7 +10,6 @@ import (
 
 type calc struct{}
 
-// Receiver func
 func (c calc) operate(entrada string, operador string) int {
 	entradaLimpia := strings.Split(entrada, operador)
 	operador1 := parsear(entradaLimpia[0])
